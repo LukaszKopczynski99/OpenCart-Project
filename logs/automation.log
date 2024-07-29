@@ -1,0 +1,24 @@
+2024-07-26 14:54:01 INFO  TC001_AccountRegistrationTest:23 -
+			**** Starting TC001_AccountRegistrationTest *****
+2024-07-26 14:54:01 INFO  TC001_AccountRegistrationTest:29 -
+			Click on MyAccount LINK
+2024-07-26 14:54:02 INFO  TC001_AccountRegistrationTest:32 -
+			Click on Registration link
+2024-07-26 14:54:04 INFO  TC001_AccountRegistrationTest:48 -
+			Validation expected message...
+2024-07-26 14:54:04 INFO  TC001_AccountRegistrationTest:59 -
+			**** Finished TC001_AccountRegistrationTest *****
+2024-07-26 14:54:10 INFO  TC002_LoginTest:17 -
+			*** Statring TC002_LoginTest ***
+2024-07-26 14:54:12 INFO  TC002_LoginTest:38 -
+			*** Finished TC002_LoginTest ***
+2024-07-26 15:35:29 INFO  TC004_LogoutTest:15 -
+			*** Statring TC002_LoginTest ***
+2024-07-26 15:36:48 INFO  TC004_LogoutTest:15 -
+			*** Statring TC002_LoginTest ***
+2024-07-26 15:40:57 INFO  TC004_LogoutTest:16 -
+			*** Statring TC002_LoginTest ***
+2024-07-26 16:02:40 INFO  TC004_LogoutTest:16 -
+			*** Statring TC004_LogoutTest ***
+2024-07-26 16:02:43 INFO  TC004_LogoutTest:44 -
+			**** Finished TC_004_LogoutTest *****
