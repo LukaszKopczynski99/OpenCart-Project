@@ -26,6 +26,24 @@ public class HomePage extends BasePage {
 	@FindBy(xpath="//button[@class='btn btn-default btn-lg']")
 	WebElement btnSearch;
 	
+	@FindBy(xpath="//span[normalize-space()='Wish List (1)']")
+	WebElement btnWishList;
+	
+	@FindBy(xpath="//i[@class='fa fa-caret-down']")
+	WebElement btnCurrencySwitch;
+	
+	@FindBy(xpath="//button[contains(text(),'€Euro')]")
+	WebElement btnCurrencyEuro;
+	
+	@FindBy(xpath="//p[@class='price']")
+	WebElement txtItemsPrice;
+	
+	@FindBy(xpath="//img[@title='MacBook']")
+	WebElement imgMacBook;
+	
+	@FindBy(xpath="//a[normalize-space()='Edit Account']")
+	WebElement btnEditAccount;
+	
 	public void clickMyAccount()
 	{
 		lnkMyaccount.click();	
@@ -50,4 +68,40 @@ public class HomePage extends BasePage {
 	{
 		btnSearch.click();
 	}
+
+	public void clickWishList()
+	{
+		btnWishList.click();
+	}
+	
+	public void clickCurrencySwitch()
+	{
+		btnCurrencySwitch.click();
+	}
+	
+	public void clickCurrencyEuro() 
+	{
+		btnCurrencyEuro.click();
+	}
+	
+	public String getItemsPrice()
+	{
+		try {
+			return (txtItemsPrice.getText());
+		} catch (Exception e) {
+			return (e.getMessage());
+			
+		}
+	}
+	
+	public void clickMacBook()
+	{
+		imgMacBook.click();
+	}
+	
+	public void clickEditAccount()
+	{
+		btnEditAccount.click();
+	}
+	
 }

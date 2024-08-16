@@ -14,6 +14,16 @@ public class SearchPage extends BasePage  {
 	@FindBy(xpath="//h1[normalize-space()='Search - iPhone']")
 	WebElement msgSearch;
 	
+	@FindBy(xpath="//div[@class='product-layout product-grid col-lg-3 col-md-3 col-sm-6 col-xs-12']//button[1]")
+	WebElement btnSearch;
+	
+	@FindBy(xpath="//div[@class='alert alert-success alert-dismissible']")
+	WebElement msgSuccessAddedToCart;
+	
+	@FindBy(xpath="//div[@class='product-layout product-grid col-lg-3 col-md-3 col-sm-6 col-xs-12']//button[2]")
+	WebElement btnAddToWishList;
+
+	
 	public String getConfirmationMsg()
 	{
 		try {
@@ -24,4 +34,21 @@ public class SearchPage extends BasePage  {
 		}
 	}
 	
+	public void ClickAddToCart () {
+		btnSearch.click();
+	}
+	
+	public Boolean isSuccessAddToCart()
+	{
+		return msgSuccessAddedToCart.isDisplayed();
+	}
+	
+	public void clickAddToWishList()
+	{
+		btnAddToWishList.click();
+	}
+	
+	
 }
+	
+

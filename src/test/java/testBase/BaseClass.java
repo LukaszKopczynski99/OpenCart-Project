@@ -119,11 +119,17 @@ public Properties p;
 		return generatednumber;
 	}
 	
+	public String randomeLongString()
+	{
+		String generatedstring=RandomStringUtils.randomAlphabetic(25);
+		return generatedstring;
+	}
+	
 	public String randomeAlphaNumeric()
 	{
 		String generatedstring=RandomStringUtils.randomAlphabetic(3);
 		String generatednumber=RandomStringUtils.randomNumeric(3);
-		return (generatedstring+"@"+generatednumber);
+		return (generatedstring+"@"+generatednumber+".com");
 	}
 	
 	public String captureScreen(String tname) throws IOException {

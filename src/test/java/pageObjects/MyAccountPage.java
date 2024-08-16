@@ -16,6 +16,12 @@ public class MyAccountPage extends BasePage {
 	@FindBy(xpath="//a[@class='list-group-item'][normalize-space()='Logout']")
 	WebElement btnLogout;
 	
+	@FindBy(xpath="//div[@class='alert alert-success alert-dismissible']")
+	WebElement msgSuccess;
+	
+	@FindBy(xpath="//a[normalize-space()='Address Book']")
+	WebElement btnAddressBook;
+	
 	public boolean isMyAccountPageExist()
 	{
 		try {
@@ -31,5 +37,21 @@ public class MyAccountPage extends BasePage {
 	public void clickLogout()
 	{
 		btnLogout.click();
+	}
+	
+	public boolean isSuccessfulAccountUpdate()
+	{
+		try {
+			return (msgSuccess.isDisplayed());
+		}
+		catch (Exception e)
+		{
+			return false;
+		}
+	}
+	
+	public void clickAddressBook()
+	{
+		btnAddressBook.click();
 	}
 }
