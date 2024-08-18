@@ -7,7 +7,7 @@ import pageObjects.HomePage;
 import pageObjects.ProductPage;
 import testBase.BaseClass;
 
-public class TC010_ReviewAdding extends BaseClass {
+public class TC010_ReviewAddingTest extends BaseClass {
 	
 	@Test(groups={"Regression","Master"})
 	public void verify_review_adding() throws InterruptedException

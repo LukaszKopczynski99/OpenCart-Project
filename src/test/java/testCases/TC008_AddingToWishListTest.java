@@ -9,7 +9,7 @@ import pageObjects.SearchPage;
 import pageObjects.WishListPage;
 import testBase.BaseClass;
 
-public class TC008_AddingToWishList extends BaseClass {
+public class TC008_AddingToWishListTest extends BaseClass {
 
 	@Test(groups={"Regression","Master"})
 	public void verify_adding_to_wish_list()

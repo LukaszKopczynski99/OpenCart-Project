@@ -8,7 +8,7 @@ import pageObjects.HomePage;
 import pageObjects.LoginPage;
 import testBase.BaseClass;
 
-public class TC005_ForgotPassword extends BaseClass {
+public class TC005_ForgotPasswordTest extends BaseClass {
 
 	@Test(groups = { "Sanity", "Master" })
 	public void verify_forgotten_password() {

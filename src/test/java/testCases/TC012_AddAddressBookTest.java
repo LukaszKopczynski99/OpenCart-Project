@@ -10,7 +10,7 @@ import pageObjects.LoginPage;
 import pageObjects.MyAccountPage;
 import testBase.BaseClass;
 
-public class TC012_AddAddressBook extends BaseClass {
+public class TC012_AddAddressBookTest extends BaseClass {
 
 	@Test(groups={"Regression","Master"})
 	public void verify_adding_address_book() throws InterruptedException 

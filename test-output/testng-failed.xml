@@ -8,13 +8,13 @@
     <parameter name="os" value="Windows"/>
     <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="testCases.TC012_AddAddressBook">
+      <class name="testCases.TC013_InformationTest">
         <methods>
           <include name="tearDown"/>
-          <include name="verify_adding_address_book"/>
+          <include name="verify_about_us_information_section"/>
           <include name="setup"/>
         </methods>
-      </class> <!-- testCases.TC012_AddAddressBook -->
+      </class> <!-- testCases.TC013_InformationTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Master Suite] -->

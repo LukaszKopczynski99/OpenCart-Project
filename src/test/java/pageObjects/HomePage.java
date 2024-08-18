@@ -44,6 +44,18 @@ public class HomePage extends BasePage {
 	@FindBy(xpath="//a[normalize-space()='Edit Account']")
 	WebElement btnEditAccount;
 	
+	@FindBy(xpath="//a[normalize-space()='About Us']")
+	WebElement lnkAboutUs;
+	
+	@FindBy(xpath="//a[normalize-space()='Delivery Information']")
+	WebElement lnkDeliveryInformation;
+	
+	@FindBy(xpath="//a[normalize-space()='Privacy Policy']")
+	WebElement lnkPrivacyPolicy;
+	
+	@FindBy(xpath="//a[normalize-space()='Terms & Conditions']")
+	WebElement lnkTermsConditions;
+
 	public void clickMyAccount()
 	{
 		lnkMyaccount.click();	
@@ -102,6 +114,26 @@ public class HomePage extends BasePage {
 	public void clickEditAccount()
 	{
 		btnEditAccount.click();
+	}
+	
+	public void clickAboutUs()
+	{
+		lnkAboutUs.click();
+	}
+	
+	public void clickDeliveryInformation()
+	{
+		lnkDeliveryInformation.click();
+	}
+	
+	public void clickPrivacyPolicy()
+	{
+		lnkPrivacyPolicy.click();
+	}
+	
+	public void clickTermsConditions()
+	{
+		lnkTermsConditions.click();
 	}
 	
 }

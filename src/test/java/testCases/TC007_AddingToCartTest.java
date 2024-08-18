@@ -4,20 +4,22 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 
 import pageObjects.HomePage;
+import pageObjects.SearchPage;
 import testBase.BaseClass;
 
-public class TC009_CurrencySwitch extends  BaseClass {
+public class TC007_AddingToCartTest extends BaseClass {
 
 	@Test(groups={"Regression","Master"})
-	public void verify_currency_switch()
+	public void verify_adding_to_cart()
 	{
-		
 		HomePage hp = new HomePage(driver);
+		hp.SetSearch(p.getProperty("searchProductName"));
+		hp.clickSearch();
 		
-		hp.clickCurrencySwitch();
-		hp.clickCurrencyEuro();
+		SearchPage sp = new SearchPage(driver);
+		sp.ClickAddToCart();
 		
-		if(hp.getItemsPrice().contains("€"))
+		if(sp.isSuccessAddToCart()==true)
 		{
 			Assert.assertTrue(true);
 		}
@@ -25,11 +27,10 @@ public class TC009_CurrencySwitch extends  BaseClass {
 		{
 			Assert.assertTrue(false);
 		}
-		
-		
-		
+				
 		
 		
 	}
+	
 	
 }
