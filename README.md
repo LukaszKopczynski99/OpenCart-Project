@@ -3,7 +3,7 @@ Full Selenium project made with Java, TestNG, Docker, Hybrid Driven Framework, P
 Test Cases made to test functions of the "https://tutorialsninja.com/demo/index.php?route=common/home" : 
 (more will be added soon)
 
-TC001_AccountRegistrationTest 
+TC001_AccountRegistrationTest\n
 TC002_LoginTest
 TC003_LoginDDT
 TC004_LogoutTest
