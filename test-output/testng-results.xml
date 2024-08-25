@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-08-19T00:45:11 CEST" name="Master Suite" finished-at="2024-08-19T00:45:18 CEST" duration-ms="7482">
+  <suite started-at="2024-08-25T23:16:40 CEST" name="Master Suite" finished-at="2024-08-25T23:17:06 CEST" duration-ms="26036">
     <groups>
       <group name="Master">
-        <method signature="TC013_InformationTest.verify_about_us_information_section()[pri:0, instance:testCases.TC013_InformationTest@1a482e36]" name="verify_about_us_information_section" class="testCases.TC013_InformationTest"/>
+        <method signature="TC014_ReturningOrderTest.verify_returning_an_order()[pri:0, instance:testCases.TC014_ReturningOrderTest@5b8dfcc1]" name="verify_returning_an_order" class="testCases.TC014_ReturningOrderTest"/>
+        <method signature="TC015_BrandsProductsDisplay.verify_displaying_sony_products()[pri:0, instance:testCases.TC015_BrandsProductsDisplay@130d63be]" name="verify_displaying_sony_products" class="testCases.TC015_BrandsProductsDisplay"/>
       </group> <!-- Master -->
     </groups>
-    <test started-at="2024-08-19T00:45:11 CEST" name="Test" finished-at="2024-08-19T00:45:18 CEST" duration-ms="7482">
-      <class name="testCases.TC013_InformationTest">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC013_InformationTest@1a482e36]" started-at="2024-08-19T00:45:11 CEST" name="setup" finished-at="2024-08-19T00:45:18 CEST" duration-ms="6549" status="PASS">
+    <test started-at="2024-08-25T23:16:40 CEST" name="Test" finished-at="2024-08-25T23:17:06 CEST" duration-ms="26036">
+      <class name="testCases.TC015_BrandsProductsDisplay">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC015_BrandsProductsDisplay@130d63be]" started-at="2024-08-25T23:16:59 CEST" name="setup" finished-at="2024-08-25T23:17:05 CEST" duration-ms="6292" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -26,15 +27,41 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verify_about_us_information_section()[pri:0, instance:testCases.TC013_InformationTest@1a482e36]" started-at="2024-08-19T00:45:18 CEST" name="verify_about_us_information_section" finished-at="2024-08-19T00:45:18 CEST" duration-ms="533" status="PASS">
+        <test-method signature="verify_displaying_sony_products()[pri:0, instance:testCases.TC015_BrandsProductsDisplay@130d63be]" started-at="2024-08-25T23:17:05 CEST" name="verify_displaying_sony_products" finished-at="2024-08-25T23:17:06 CEST" duration-ms="1157" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verify_about_us_information_section -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC013_InformationTest@1a482e36]" started-at="2024-08-19T00:45:18 CEST" name="tearDown" finished-at="2024-08-19T00:45:18 CEST" duration-ms="148" status="PASS">
+        </test-method> <!-- verify_displaying_sony_products -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC015_BrandsProductsDisplay@130d63be]" started-at="2024-08-25T23:17:06 CEST" name="tearDown" finished-at="2024-08-25T23:17:06 CEST" duration-ms="141" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- testCases.TC013_InformationTest -->
+      </class> <!-- testCases.TC015_BrandsProductsDisplay -->
+      <class name="testCases.TC014_ReturningOrderTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC014_ReturningOrderTest@5b8dfcc1]" started-at="2024-08-25T23:16:41 CEST" name="setup" finished-at="2024-08-25T23:16:56 CEST" duration-ms="15032" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verify_returning_an_order()[pri:0, instance:testCases.TC014_ReturningOrderTest@5b8dfcc1]" started-at="2024-08-25T23:16:56 CEST" name="verify_returning_an_order" finished-at="2024-08-25T23:16:59 CEST" duration-ms="2869" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_returning_an_order -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC014_ReturningOrderTest@5b8dfcc1]" started-at="2024-08-25T23:16:59 CEST" name="tearDown" finished-at="2024-08-25T23:16:59 CEST" duration-ms="182" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC014_ReturningOrderTest -->
     </test> <!-- Test -->
   </suite> <!-- Master Suite -->
 </testng-results>

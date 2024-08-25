@@ -55,6 +55,12 @@ public class HomePage extends BasePage {
 	
 	@FindBy(xpath="//a[normalize-space()='Terms & Conditions']")
 	WebElement lnkTermsConditions;
+	
+	@FindBy(xpath="//a[normalize-space()='Returns']")
+	WebElement lnkReturns;
+	
+	@FindBy(xpath="//a[normalize-space()='Brands']")
+	WebElement lnkBrands;
 
 	public void clickMyAccount()
 	{
@@ -134,6 +140,16 @@ public class HomePage extends BasePage {
 	public void clickTermsConditions()
 	{
 		lnkTermsConditions.click();
+	}
+	
+	public void clickReturns()
+	{
+		lnkReturns.click();	
+	}
+	
+	public void clickBrands()
+	{
+		lnkBrands.click();
 	}
 	
 }

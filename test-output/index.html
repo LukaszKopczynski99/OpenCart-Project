@@ -93,7 +93,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">1 method,   1 passed</span>
+                    <span class="method-stats">2 methods,   2 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -104,7 +104,12 @@
                     <div class="method-list-content passed suite-Master_Suite">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Master_Suite" title="testCases.TC013_InformationTest" class="method navigator-link" hash-for-method="verify_about_us_information_section">verify_about_us_information_section</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Master_Suite" title="testCases.TC015_BrandsProductsDisplay" class="method navigator-link" hash-for-method="verify_displaying_sony_products">verify_displaying_sony_products</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Master_Suite" title="testCases.TC014_ReturningOrderTest" class="method navigator-link" hash-for-method="verify_returning_an_order">verify_returning_an_order</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Master_Suite -->
@@ -122,14 +127,29 @@
           <div class="suite-Master_Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">testCases.TC013_InformationTest</span>
+              <span class="class-name">testCases.TC014_ReturningOrderTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="verify_about_us_information_section">
-                  </a> <!-- verify_about_us_information_section -->
-                  <span class="method-name">verify_about_us_information_section</span>
+                  <a name="verify_returning_an_order">
+                  </a> <!-- verify_returning_an_order -->
+                  <span class="method-name">verify_returning_an_order</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Master_Suite-class-passed -->
+          <div class="suite-Master_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testCases.TC015_BrandsProductsDisplay</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verify_displaying_sony_products">
+                  </a> <!-- verify_displaying_sony_products -->
+                  <span class="method-name">verify_displaying_sony_products</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -151,7 +171,8 @@
     &lt;parameter name=&quot;os&quot; value=&quot;Windows&quot;/&gt;
     &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;testCases.TC013_InformationTest&quot;/&gt;
+      &lt;class name=&quot;testCases.TC014_ReturningOrderTest&quot;/&gt;
+      &lt;class name=&quot;testCases.TC015_BrandsProductsDisplay&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Test --&gt;
 &lt;/suite&gt; &lt;!-- Master Suite --&gt;
@@ -165,7 +186,7 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Test (1 class)</span>
+                <span class="test-name">Test (2 classes)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -179,7 +200,11 @@
               <span class="test-group-name">Master</span>
               <br/>
               <div class="method-in-group">
-                <span class="method-in-group-name">verify_about_us_information_section</span>
+                <span class="method-in-group-name">verify_displaying_sony_products</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verify_returning_an_order</span>
                 <br/>
               </div> <!-- method-in-group -->
             </div> <!-- test-group -->
@@ -199,16 +224,20 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(1);
+data.addRows(2);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'verify_about_us_information_section')
-data.setCell(0, 2, 'testCases.TC013_InformationTest')
-data.setCell(0, 3, 533);
+data.setCell(0, 1, 'verify_returning_an_order')
+data.setCell(0, 2, 'testCases.TC014_ReturningOrderTest')
+data.setCell(0, 3, 2869);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'verify_displaying_sony_products')
+data.setCell(1, 2, 'testCases.TC015_BrandsProductsDisplay')
+data.setCell(1, 3, 1157);
 window.suiteTableData['Master_Suite']= { tableData: data, tableDiv: 'times-div-Master_Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 533 ms</span>
+              <span class="suite-total-time">Total running time: 4 seconds</span>
               <div id="times-div-Master_Suite">
               </div> <!-- times-div-Master_Suite -->
             </div> <!-- times-div -->
@@ -234,18 +263,33 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">testCases.TC013_InformationTest</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">testCases.TC014_ReturningOrderTest</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">setup(Windows, chrome)</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
-                <span class="method-name">verify_about_us_information_section</span>
-                <span class="method-start">6560 ms</span>
+                <span class="method-name">verify_returning_an_order</span>
+                <span class="method-start">15041 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">7104 ms</span>
+                <span class="method-start">17923 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.TC015_BrandsProductsDisplay</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup(Windows, chrome)</span>
+                <span class="method-start">18106 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">verify_displaying_sony_products</span>
+                <span class="method-start">24399 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">25558 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

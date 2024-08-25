@@ -24,8 +24,10 @@
      <class name="testCases.TC009_CurrencySwitch"/>
      <class name="testCases.TC010_ReviewAdding"/>
      <class name="testCases.TC011_EditAccountTest"/>
-     <class name="testCases.TC012_AddAddressBook"/>-->
-     <class name="testCases.TC013_InformationTest"/>
+     <class name="testCases.TC012_AddAddressBook"/>
+     <class name="testCases.TC013_InformationTest"/>-->
+     <class name="testCases.TC014_ReturningOrderTest"/>
+     <class name="testCases.TC015_BrandsProductsDisplay"/>
     
     </classes>
   </test> <!-- Test -->
